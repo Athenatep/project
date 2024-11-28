@@ -20,7 +20,7 @@ setup(
         "pandas==2.1.3",
         "matplotlib==3.8.2",
         "seaborn==0.13.0",
-        "PyQt6==6.5.2",
+        "PyQt6==6.4.2",
         "qt-material==2.14",
         "openpyxl==3.1.2",
         "xlrd==2.0.1"

@@ -15,7 +15,7 @@ whois==0.9.27
 pytest==7.4.3
 
 # GUI
-PyQt6==6.5.2
+PyQt6==6.4.2
 qt-material==2.14
 
 # File handling

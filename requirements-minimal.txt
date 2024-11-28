@@ -18,5 +18,5 @@ matplotlib==3.8.2
 seaborn==0.13.0
 
 # GUI dependencies
-PyQt6==6.5.2
+PyQt6==6.4.2
 qt-material==2.14
