@@ -1,0 +1,16 @@
+# Install base requirements first
+-r requirements-base.txt
+
+# Pre-compiled wheels for Windows
+numpy==2.1.3
+pandas==2.1.3
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Development tools
+black==24.2.0
+pylint==3.0.3
+mkdocs==1.5.3
+mkdocs-material==9.5.9
+build==1.0.3
+pyqt6-tools==6.4.2.3.3
