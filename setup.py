@@ -16,7 +16,7 @@ setup(
         "dnspython==2.4.2",
         "tld==0.13",
         "whois==0.9.27",
-        "numpy==2.1.3",
+        "numpy>=1.22.4,<2.0.0",
         "pandas==2.1.3",
         "matplotlib==3.8.2",
         "seaborn==0.13.0",
