@@ -1,9 +1,9 @@
-from setuptools import setup, find_namespace_packages
+from setuptools import setup, find_packages
 
 setup(
     name="email-validator",
     version="1.0.0",
-    packages=find_namespace_packages(include=["src", "src.*"]),
+    packages=find_packages(),
     install_requires=[
         "fastapi==0.104.1",
         "uvicorn==0.24.0",
@@ -25,6 +25,5 @@ setup(
         "openpyxl==3.1.2",
         "xlrd==2.0.1"
     ],
-    python_requires=">=3.9",
-    package_dir={"": "."}
+    python_requires=">=3.9"
 )
