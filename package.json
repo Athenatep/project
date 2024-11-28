@@ -12,15 +12,13 @@
     "format": "black src/ tests/",
     "build": "python -m build",
     "docs": "mkdocs serve",
-    "clean": "rimraf dist/ build/ __pycache__/ .pytest_cache/",
-    "validate": "npm audit && pip-audit"
+    "clean": "rimraf dist/ build/ __pycache__/ .pytest_cache/"
   },
   "dependencies": {
     "python-shell": "^5.0.0"
   },
   "devDependencies": {
-    "rimraf": "^5.0.5",
-    "pip-audit": "^1.0.1"
+    "rimraf": "^5.0.5"
   },
   "engines": {
     "node": ">=18.0.0",
